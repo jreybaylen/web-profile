@@ -11,3 +11,16 @@ strong {
 * {
     @apply font-fira-sans font-normal text-slate-800;
 }
+
+.container {
+    @apply max-w-7xl mx-auto;
+}
+
+.header-list {
+    @apply flex flex-row items-center;
+}
+
+.header-list li:not(:first-of-type) a {
+    @apply p-4 font-semibold block duration-200 text-lg;
+    @apply hover:underline;
+}
