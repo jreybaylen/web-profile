@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Header (): JSX.Element {
     return (
-        <header>
+        <header className="fixed top-0 left-0 right-0">
             <nav className="container">
                 <ul className="header-list">
                     <li className="mr-auto">

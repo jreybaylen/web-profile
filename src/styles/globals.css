@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+    @apply scroll-smooth;
+}
+
 h1,
 b,
 strong {
@@ -23,4 +28,12 @@ strong {
 .header-list li:not(:first-of-type) a {
     @apply p-4 font-semibold block duration-200 text-lg;
     @apply hover:underline;
+}
+
+.hero-left p {
+    @apply text-xl text-slate-800 font-light;
+}
+
+.hero-left p strong {
+    @apply font-semibold;
 }
