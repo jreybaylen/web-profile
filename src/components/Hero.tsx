@@ -33,6 +33,7 @@ export function Hero (): JSX.Element {
             <div className="w-2/12" />
             <div className="w-4/12 relative">
                 <Image
+                    placeholder="blur"
                     src={ HeroProfile }
                     alt="Loving couple in a white dress"
                     className="block w-full h-auto rotate-3 rounded-full shadow-2xl"
