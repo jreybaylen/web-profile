@@ -1,34 +1,35 @@
-import Link from 'next/link'
-
 export function Header (): JSX.Element {
     return (
-        <header className="fixed top-0 left-0 right-0">
+        <header className="fixed top-0 left-0 right-0 z-10 bg-white">
             <nav className="container">
                 <ul className="header-list">
-                    <li className="mr-auto">
-                        <Link href="/" className="text-4xl font-bold">
+                    <li>
+                        <a
+                            href="#hero-section"
+                            className="font-bold text-3xl px-4 py-6"
+                        >
                             JRMB
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link href="#about-me">
+                        <a href="#about-me">
                             About Me
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link href="#skills">
+                        <a href="#skills">
                             Skills
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link href="#experiences">
+                        <a href="#experiences">
                             Experiences
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link href="#projects">
+                        <a href="#projects">
                             Projects
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </nav>

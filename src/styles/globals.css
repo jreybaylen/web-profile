@@ -17,23 +17,23 @@ strong {
     @apply font-fira-sans font-normal text-slate-800;
 }
 
+p strong {
+    @apply font-semibold;
+}
+
 .container {
     @apply max-w-7xl mx-auto;
 }
 
 .header-list {
-    @apply flex flex-row items-center;
+    @apply flex flex-row items-center justify-center;
 }
 
 .header-list li:not(:first-of-type) a {
-    @apply p-4 font-semibold block duration-200 text-lg;
+    @apply px-4 py-6 font-semibold block duration-200 text-lg;
     @apply hover:underline;
 }
 
 .hero-left p {
     @apply text-xl text-slate-800 font-light;
-}
-
-.hero-left p strong {
-    @apply font-semibold;
 }
