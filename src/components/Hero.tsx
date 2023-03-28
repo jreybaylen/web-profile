@@ -19,7 +19,7 @@ export function Hero (): JSX.Element {
                     <strong>React</strong> and <strong>TypeScript</strong> are the programming languages I commonly used when building an application.
                 </p>
                 <p className="mt-4">
-                    Watching movies, tutorials, and walking are some of my hobbies during free time.
+                    Walking, watching movies, and tutorials are some of my hobbies during free time.
                 </p>
                 <div className="mt-10">
                     <Link
