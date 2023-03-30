@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import { Header, Hero, AboutMe } from '@components/index'
+import { Header, Hero, AboutMe, Skills } from '@components/index'
 
 type HomeProps = {
 	fonts: string
@@ -20,6 +20,7 @@ export default function Home (PROPS: HomeProps): JSX.Element {
 				<Header />
 				<Hero />
 				<AboutMe />
+				<Skills />
 			</main>
 		</>
 	)

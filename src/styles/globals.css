@@ -35,5 +35,21 @@ p strong {
 }
 
 .hero-left p {
-    @apply text-xl text-slate-800 font-light;
+    @apply text-xl;
+}
+
+#skills ul {
+    @apply flex-wrap;
+}
+
+#skills ul li:not(:nth-child(6n)) {
+    @apply flex flex-row items-center py-3 px-4 border-2 rounded-xl bg-white;
+}
+
+#skills ul li:nth-child(6n) {
+    @apply w-full;
+}
+
+#skills ul li:not(:nth-child(6n)) svg {
+    @apply w-[30px] h-[30px] mr-2;
 }

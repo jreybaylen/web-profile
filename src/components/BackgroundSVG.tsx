@@ -6,7 +6,7 @@ export function BackgroundSVG (): JSX.Element {
             height="688"
             viewBox="0 0 747 688"
             xmlns="http://www.w3.org/2000/svg"
-            className="absolute inset-0 -top-10 -left-32 z-[-1]"
+            className="absolute inset-0 -top-10 z-[-1] -left-32"
         >
             <path 
                 fill="#ECF9FF"

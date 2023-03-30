@@ -1,9 +1,3 @@
-import Image from 'next/image'
-
-import HeroProfile from '@assets/hero-profile.jpg'
-
-import { BackgroundSVG } from './BackgroundSVG'
-
 export function Hero (): JSX.Element {
     return (
         <section
@@ -14,14 +8,8 @@ export function Hero (): JSX.Element {
                 <h1 className="text-5xl">
                     Hi! I&apos;m Jrey
                 </h1>
-                <p className="mt-4">
-                    I mainly focused on mobile and web app development.
-                </p>
-                <p>
-                    <strong>React</strong> and <strong>TypeScript</strong> are the programming languages I commonly used when building an application.
-                </p>
-                <p className="mt-4">
-                    Walking, watching movies, and tutorials are some of my hobbies during free time.
+                <p className="mt-4 text-slate-500">
+                    A loving husband, adventurer, gamer, and software engineer
                 </p>
                 <div className="mt-10">
                     <a
@@ -32,17 +20,6 @@ export function Hero (): JSX.Element {
                     </a>
                 </div>
             </div>
-            <div className="w-2/12" />
-            <div className="w-4/12 relative">
-                <Image
-                    placeholder="blur"
-                    src={ HeroProfile }
-                    alt="Loving couple in a white dress"
-                    className="block w-full h-auto rotate-3 rounded-full shadow-2xl"
-                />
-                <BackgroundSVG />
-            </div>
-            <div className="w-1/12" />
         </section>
     )
 }
