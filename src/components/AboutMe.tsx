@@ -15,7 +15,7 @@ export function AboutMe (): JSX.Element {
             className="h-screen"
         >
             <div className="container flex flex-row items-center h-screen">
-                <div className="w-6/12">
+                <div className="w-5/12">
                     <h1 className="text-5xl mb-6">
                         About Me &rarr;
                     </h1>
